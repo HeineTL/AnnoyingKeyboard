@@ -6,12 +6,14 @@ body {
     font-weight: bold;
     margin: 0;
     padding: 0;
+    cursor: grab;
+    user-select: none;
 }
 .letter {
     position: absolute;
     background-color: white;
     height: 1.8em;
-    width: 1.6em;
+    width: 1.7em;
     font-size: 1.5em;
     border-radius: 0.1em;
     display: flex;
